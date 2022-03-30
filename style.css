@@ -1,0 +1,117 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {background-color: midnightblue;
+    color: white; 
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 3.2;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h1{ font-family: 'Bebas Neue', cursive;
+
+}
+
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: lightgreen;
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button3 {
+    background: pink;
+}
+#button4 {
+    background: lightyellow;
+}
+
+#button1:active, #button1.lit {
+    background:red;
+}
+
+#button2:active, #button2.lit {
+    background:grey;
+}
+
+#button3:active, #button3.lit {
+    background:Blue;
+}
+
+#button4:active, #button4.lit {
+    background:slategrey;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+body {
+  background-image: url(https://cdn.glitch.me/411bf6e3-ca88-41b1-86d5-c83b4fc60a0d/purple-space.gif?v=1648665165042);
+background-repeat: no-repeat;
+background-size: cover;}
+
+#button1{
+background: url(https://cdn.glitch.me/411bf6e3-ca88-41b1-86d5-c83b4fc60a0d/mars-transparent-png-stickpng-0.png?v=1648665405998);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#button2{
+background: url(https://cdn.glitch.me/411bf6e3-ca88-41b1-86d5-c83b4fc60a0d/venus-transparent.png?v=1648666297607);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#button3{
+background: url(https://cdn.glitch.me/411bf6e3-ca88-41b1-86d5-c83b4fc60a0d/Earrth.png?v=1648666035576);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#button4{
+background: url(https://cdn.glitch.me/411bf6e3-ca88-41b1-86d5-c83b4fc60a0d/58f9fd8c0ed2bdaf7c12832a.png?v=1648667452065);
+background-size: cover;
+background-repeat: no-repeat;
+}
+body{
+text-align: center;
+}
+h1, p{
+text-align: center;
+}
+button {
+border: 0;
+}
+h1 {
+text-transform: uppercase;
+text-shadow: 2px 5px 5px hsl(240deg 7% 97%);
+}
